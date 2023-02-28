@@ -6,7 +6,7 @@ variable "servername" {
 variable "location" {
   type        = string
   description = "Azure location of network components"
-  default     = "westus2"
+  default     = "eastus"
 }
 
 variable "resource_group_name" {
